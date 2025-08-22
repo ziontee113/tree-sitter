@@ -4,6 +4,7 @@
     .fingerprint = 0x841224b4c8e142cf,
 
     .paths = .{
+        "treez.zig",
         "build.zig",
         "build.zig.zon",
         "LICENSE",
@@ -76,6 +77,5 @@
         "tree-sitter-yaml",
         "tree-sitter-zig",
         "tree-sitter-ziggy",
-        "treez",
     },
 }
