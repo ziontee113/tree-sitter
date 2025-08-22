@@ -104,9 +104,7 @@ pub fn build(b: *std.Build) void {
     b.installArtifact(lib);
     lib.installHeadersDirectory(b.path("tree-sitter/lib/include/tree_sitter"), "tree_sitter", .{});
 
-    const mod = b.addModule("treez", .{
-        .root_source_file = b.path("treez/treez.zig"),
-    });
+    const mod = b.addModule("treez", .{ .root_source_file = b.path("treez.zig") });
     mod.linkLibrary(lib);
 }
 

@@ -76,6 +76,5 @@
         "tree-sitter-yaml",
         "tree-sitter-zig",
         "tree-sitter-ziggy",
-        "treez",
     },
 }
